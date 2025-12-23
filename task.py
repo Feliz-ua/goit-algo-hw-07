@@ -142,8 +142,8 @@ if __name__ == "__main__":
         root = insert(root, key)
 
     print(root)
-    print("Max value:", find_max(root))
-    print("Min value:", find_min(root))
-    print("Sum of all values:", sum_values(root))
+    print("Максимальне значення:", find_max(root))
+    print("Мінімальне значення:", find_min(root))
+    print("Сума всіх значень:", sum_values(root))
     draw_tree(root)
     
